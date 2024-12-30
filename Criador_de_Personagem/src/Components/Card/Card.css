@@ -1,0 +1,28 @@
+.Classes {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.ImageSelector img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .ImageSelector img.selected {
+    border: 2px solid #007BFF;
+  }
+  
+  .SelectedImage img {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+  }
+  .selected {
+    border: 2px solid blue;
+    transform: scale(1.1);
+  }
